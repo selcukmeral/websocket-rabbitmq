@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: dev
+  jpa:
+    open-in-view: false
+  jta:
+    enabled: false
+  output:
+    ansi:
+      enabled: always
+  sleuth:
+    enabled: true
+  mvc:
+    dispatch-options-request: true
+  datasource:
+    sql-script-encoding: UTF-8
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+    
+server:
+  port: 8080
+
+rabbitmq:
+  host: localhost
+  relay-port: 61613
+  port: 80
+  v-host: /
+  username: guest
+  passcode: guest

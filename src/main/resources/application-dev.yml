@@ -1,0 +1,8 @@
+logging:
+  level:
+    com.selcukmeral.websocket: DEBUG
+    org.springframework.web: DEBUG # INFO is default but it's here to easily toggle it
+    org.springframework.messaging: DEBUG # to show sql binded values
+  file: /logs/websocket-rabbitmq_app.log
+  pattern:
+    file: "%d %-5level [%thread] %logger : %msg%n"
