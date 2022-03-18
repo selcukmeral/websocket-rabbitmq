@@ -33,7 +33,7 @@ $(document).ready(function () {
 	    
 	    
 	    var textElement = document.createElement('p');
-	    var usernameText = document.createTextNode('Session Id:'+sessionId);
+	    var usernameText = document.createTextNode('Connect Session Id:'+sessionId);
 	    textElement.appendChild(usernameText);
 
 	    title.appendChild(textElement);
