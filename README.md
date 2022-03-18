@@ -1,1 +1,1 @@
-# Spring Boot WebSocket - RabbitMQ Chat Demo Example
+# Spring Boot WebSocket - RabbitMQ Chat Application
