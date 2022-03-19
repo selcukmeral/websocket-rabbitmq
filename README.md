@@ -1,1 +1,1 @@
-# websocket-rabbitmq
+# Spring Boot WebSocket - RabbitMQ Chat Application
